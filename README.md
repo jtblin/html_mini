@@ -8,7 +8,7 @@ for Rack applications. HtmlMini is optimised for speed over syntax preservation.
 This is an early release that has not been tested in production. I wanted to try out creating a rack middleware and a gem.
 The minify logic is **minimal** therefore unexpected issues can occur. **Use at your own risk**
 
-If you have inline Javascript in your Html, make sure all lines are ended by semi colons, and that you only use multi or full line comments, no comments at tend of line.
+If you have inline Javascript in your Html, make sure all lines are ended by semi colons, and that you only use multi or full line comments, no comments at end of line.
 
 ## Using with Rack application
 
