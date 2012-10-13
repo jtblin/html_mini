@@ -1,20 +1,20 @@
 require 'rake'
 require 'rake/testtask'
-require File.expand_path('../lib/rack/html_minify',  __FILE__)
+require File.expand_path('../lib/html_mini',  __FILE__)
 
 Rake::TestTask.new(:test) do |test|
+  # TODO: add tests
   test.libs << 'test'
-  #SO MUCH NOISE
-  #test.warning = true
+  # test.warning = true
   test.pattern = 'test/**/test_*.rb'
 end
 
 task :build do
-  system "gem build rack-html-minify.gemspec"
+  system "gem build html_mini.gemspec"
 end
 
 task :release => :build do
-  system "gem push rack-html-minify-#{Rack::HtmlMinify.version}"
+  system "gem push html_mini-#{HtmlMini::VERSION}.gem"
 end
 
 task :default => :test
