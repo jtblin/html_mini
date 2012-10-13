@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors = ["Jerome Touffe-Blin"]
   s.email = %q{jtblin@gmail.com}
-  s.homepage = %q{http://github.com/jtblin/html-mini}
+  s.homepage = %q{http://github.com/jtblin/html_mini}
   s.summary = %q{HTML Mini}
   s.description = %q{Simple, fast HTML minification for Rack applications}
   s.required_rubygems_version = ">= 1.3.6"
