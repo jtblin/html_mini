@@ -1,6 +1,6 @@
 # HtmlMini
 
-The *html-mini* gem includes a simple module and a middleware that adds HTML minification
+The *html_mini* gem includes a simple module and a middleware that adds HTML minification
 for Rack applications. HtmlMini is optimised for speed over syntax preservation.
 
 ## Disclaimer
