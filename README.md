@@ -49,5 +49,5 @@ Jerome Touffe-Blin, [@jtblin](https://twitter.com/jtlbin), [http://www.linkedin.
 
 ## License
 
-Html-Mini is copyright 2012 Jerome Touffe-Blin and contributors. It is licensed under the BSD license. See the include LICENSE file for details.
+HtmlMini is copyright 2012 Jerome Touffe-Blin and contributors. It is licensed under the BSD license. See the include LICENSE file for details.
 
