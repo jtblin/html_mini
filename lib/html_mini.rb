@@ -1,6 +1,6 @@
 module HtmlMini
 
-  VERSION = "0.0.2"
+  VERSION = "0.0.3"
 
   def self.minify(html)
     # 1. Remove all comments: gsub(/(<!--(\w|\s|:|!|#|<|>|'|"|=|;|,|\.|\?)*-->|\/\*[^\*]*\*\/|^(\t|\s)*\/\/.*)/, '')

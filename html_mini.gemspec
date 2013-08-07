@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors = ["Jerome Touffe-Blin"]
   s.email = %q{jtblin@gmail.com}
+  s.license = 'BSD'
   s.homepage = %q{http://github.com/jtblin/html_mini}
   s.summary = %q{HTML Mini}
   s.description = %q{Simple, fast HTML minification for Rack applications}
